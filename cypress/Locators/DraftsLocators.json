@@ -1,0 +1,682 @@
+{
+    "createsChunkedNote": {
+        "addBtn": "div.new-tab .inner",
+        "createBasicDraftBtn": "button.btn.submit",
+        "@createDraft": 200,
+        "textWidgetBtn": "div.text.mode-button",
+        "optionBtn": "div.entry.chunk",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note": "div.vertice textarea",
+        "changeColorFromPastedWidgetMenu": "div.palette-picker-toggle",
+        "colorAssert": "div.vertice",
+        "sizeBtn": ":nth-child(9) > .panel2-wrapper > .font-size",
+        "pxBtn": "div[class='option button 90px'] div[class='picto']",
+        "deleteFromPastedWidgetMenu": "div.open-right-click"
+    },
+    "addsHeadingOne": {
+        "textWidgetBtn": "div.text.mode-button",
+        "optionBtn": "div.entry.title2",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note": "div.vertice textarea",
+        "changeColorFromPastedWidgetMenu": "div.palette-picker-toggle",
+        "colorAssert": "div.vertice .text",
+        "sizeBtn": ":nth-child(9) > .panel2-wrapper > .panel2-toggle",
+        "pxBtn": "div[class='option button 15px'] div[class='picto']",
+        "deleteFromPastedWidgetMenu": "div.open-right-click"
+    },
+    "addsHeadingTwo": {
+        "textWidgetBtn": "div.text.mode-button",
+        "optionBtn": "div.entry.title1",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note": "div.vertice textarea",
+        "changeColorFromPastedWidgetMenu": "div.palette-picker-toggle",
+        "colorAssert": "div.vertice .text",
+        "sizeBtn": ":nth-child(9) > .panel2-wrapper > .panel2-toggle",
+        "pxBtn": "div[class='option button 90px'] div[class='picto']",
+        "deleteFromPastedWidgetMenu": "div.open-right-click"
+    },
+    "addsHeadingThree": {
+        "textWidgetBtn": "div.text.mode-button",
+        "optionBtn": "div.entry.title0",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note": "div.vertice textarea",
+        "changeColorFromPastedWidgetMenu": "div.palette-picker-toggle",
+        "colorAssert": "div.vertice .text",
+        "sizeBtn": ":nth-child(9) > .panel2-wrapper > .panel2-toggle",
+        "pxBtn": "div[class='option button 45px'] div[class='picto']",
+        "deleteFromPastedWidgetMenu": "div.open-right-click"
+    },
+    "createsSquareStickyNotes": {
+        "textWidgetBtn": "div.text.mode-button",
+        "optionBtn": "div.entry.postit-square",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note": "div.vertice textarea",
+        "changeColorFromPastedWidgetMenu": "div.palette-picker-toggle",
+        "colorAssert": "div.vertice",
+        "sizeBtn": ":nth-child(9) > .panel2-wrapper > .panel2-toggle",
+        "pxBtn": "div[class='option button 22px'] div[class='picto']",
+        "deleteFromPastedWidgetMenu": "div.open-right-click"
+    },
+    "createsRectangularStickyNotes": {
+        "textWidgetBtn": "div.text.mode-button",
+        "optionBtn": "div.entry.postit-rectangle",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note": "div.vertice textarea",
+        "changeColorFromPastedWidgetMenu": "div.palette-picker-toggle",
+        "colorAssert": "div.vertice",
+        "sizeBtn": ":nth-child(9) > .panel2-wrapper > .panel2-toggle",
+        "pxBtn": "div[class='option button 45px'] div[class='picto']",
+        "deleteFromPastedWidgetMenu": "div.open-right-click"
+    },
+    "createsRectangularTextBox": {
+        "textWidgetBtn": "div.text.mode-button",
+        "optionBtn": "div.entry.textbox",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note": "div.vertice textarea",
+        "changeColorFromPastedWidgetMenu": "div.palette-picker-toggle",
+        "colorAssert": "div.vertice",
+        "sizeBtn": ":nth-child(9) > .panel2-wrapper > .panel2-toggle",
+        "pxBtn": "div[class='option button 22px'] div[class='picto']",
+        "deleteFromPastedWidgetMenu": "div.open-right-click"
+    },
+    "createsEllipseTextBox": {
+        "textWidgetBtn": "div.text.mode-button",
+        "optionBtn": "div.entry.textbox-ellipse",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note": "div.vertice textarea",
+        "changeColorFromPastedWidgetMenu": "div.palette-picker-toggle",
+        "colorAssert": "div.vertice",
+        "sizeBtn": ":nth-child(9) > .panel2-wrapper > .panel2-toggle",
+        "pxBtn": "div[class='option button 22px'] div[class='picto']",
+        "deleteFromPastedWidgetMenu": "div.open-right-click"
+    },
+    "createsTriangleTextBox": {
+        "textWidgetBtn": "div.text.mode-button",
+        "optionBtn": "div.entry.textbox-triangle",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note": "div.vertice textarea",
+        "changeColorFromPastedWidgetMenu": "div.palette-picker-toggle",
+        "colorAssert": "div.vertice",
+        "sizeBtn": ":nth-child(9) > .panel2-wrapper > .panel2-toggle",
+        "pxBtn": "div[class='option button 22px'] div[class='picto']",
+        "deleteFromPastedWidgetMenu": "div.open-right-click"
+    },
+    "createsRhombusTextBox": {
+        "textWidgetBtn": "div.text.mode-button",
+        "optionBtn": "div.entry.textbox-losange",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note": "div.vertice textarea",
+        "changeColorFromPastedWidgetMenu": "div.palette-picker-toggle",
+        "colorAssert": "div.vertice",
+        "sizeBtn": ":nth-child(9) > .panel2-wrapper > .panel2-toggle",
+        "pxBtn": "div[class='option button 22px'] div[class='picto']",
+        "deleteFromPastedWidgetMenu": "div.open-right-click"
+    },
+    "createsCard": {
+        "textWidgetBtn": "div.text.mode-button",
+        "optionBtn": "div.entry.card3",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note": "div.vertice textarea",
+        "changeColorFromPastedWidgetMenu": "div.palette-picker-toggle",
+        "deleteFromPastedWidgetMenu": "div.open-right-click",
+        "closeDraftBtn": "span.remove"
+    },
+    "addsPlainLine": {
+        "addBtn": "div.new-tab .inner",
+        "createBasicDraftBtn": "button.btn.submit",
+        "@createDraft": 200,
+        "textWidgetBtn": "div.arrow.mode-button",
+        "optionBtn": "div.entry.plain",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "changeColorFromPastedWidgetMenu": "div.palette-picker-toggle",
+        "colorAssert": "div.vertice path",
+        "deleteFromPastedWidgetMenu": "div.open-right-click"
+    },
+    "addsSingleHeadedArrow": {
+        "textWidgetBtn": "div.arrow.mode-button",
+        "optionBtn": "div.entry.headTo",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "changeColorFromPastedWidgetMenu": "div.palette-picker-toggle",
+        "colorAssert": "div.vertice path",
+        "deleteFromPastedWidgetMenu": "div.open-right-click"
+    },
+    "addsDoubleHeadedArrow": {
+        "textWidgetBtn": "div.arrow.mode-button",
+        "optionBtn": "div.entry.double",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "changeColorFromPastedWidgetMenu": "div.palette-picker-toggle",
+        "colorAssert": "div.vertice path",
+        "deleteFromPastedWidgetMenu": "div.open-right-click"
+    },
+    "adds2x2Matrix": {
+        "textWidgetBtn": "div.arrow.mode-button",
+        "optionBtn": "div.entry.twoXTwo",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "changeColorFromPastedWidgetMenu": "div.palette-picker-toggle",
+        "colorAssert": "div.vertice path",
+        "deleteFromPastedWidgetMenu": "div.open-right-click"
+    },
+    "addsXyReferencedCentered": {
+        "textWidgetBtn": "div.arrow.mode-button",
+        "optionBtn": "div.entry.twoAxisCenter",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "changeColorFromPastedWidgetMenu": "div.palette-picker-toggle",
+        "colorAssert": "div.vertice path",
+        "deleteFromPastedWidgetMenu": "div.open-right-click"
+    },
+    "addsXyReference": {
+        "textWidgetBtn": "div.arrow.mode-button",
+        "optionBtn": "div.entry.twoAxisBottomLeft",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "changeColorFromPastedWidgetMenu": "div.palette-picker-toggle",
+        "colorAssert": "div.vertice path",
+        "deleteFromPastedWidgetMenu": "div.open-right-click",
+        "closeDraftBtn": "span.remove"
+    },
+    "addsRectangleFrame": {
+        "addBtn": "div.new-tab .inner",
+        "createBasicDraftBtn": "button.btn.submit",
+        "@createDraft": 200,
+        "textWidgetBtn": "div.shape.mode-button",
+        "optionBtn": "div.entry.rectangle",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "changeColorFromPastedWidgetMenu": "div.palette-picker-toggle",
+        "colorAssert": "div.vertice-path-title",
+        "deleteFromPastedWidgetMenu": "div.open-right-click"
+    },
+    "addsEllipticalFrame": {
+        "textWidgetBtn": "div.shape.mode-button",
+        "optionBtn": "div.entry.ellipse",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "changeColorFromPastedWidgetMenu": "div.palette-picker-toggle",
+        "colorAssert": "div.vertice-path-title",
+        "deleteFromPastedWidgetMenu": "div.open-right-click",
+        "closeDraftBtn": "span.remove"
+    },
+    "addsPolygoneHull": {
+        "addBtn": "div.new-tab .inner",
+        "createBasicDraftBtn": "button.btn.submit",
+        "@createDraft": 200,
+        "textWidgetBtn": "div.group.mode-button",
+        "optionBtn": "div.entry.hull-polygon",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "colorAssert": "div.vertice path",
+        "changeColorFromPastedWidgetMenu": "div.palette-picker-toggle",
+        "deleteFromPastedWidgetMenu": "div.open-right-click"
+    },
+    "addsRectangleHull": {
+        "textWidgetBtn": "div.group.mode-button",
+        "optionBtn": "div.entry.hull-rectangle",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "changeColorFromPastedWidgetMenu": "div.palette-picker-toggle",
+        "colorAssert": "div.vertice path",
+        "deleteFromPastedWidgetMenu": "div.open-right-click",
+        "closeDraftBtn": "span.remove"
+    },
+    "addsFreeHandDrawing": {
+        "addBtn": "div.new-tab .inner",
+        "createBasicDraftBtn": "button.btn.submit",
+        "@createDraft": 200,
+        "textWidgetBtn": "div.draw.mode-button",
+        "optionBtn": "div.entry.free",
+        "draftDropCanvasDraw": "body >  div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg"
+    },
+    "addsHandWritting": {
+        "textWidgetBtn": "div.draw.mode-button",
+        "optionBtn": "div.entry.handwrite",
+        "draftDropCanvas": "body >  div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "draftDropCanvasDraw": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg"
+    },
+    "addsLocalMedia": {
+        "addBtn": "div.new-tab .inner",
+        "createBasicDraftBtn": "button.btn.submit",
+        "@createDraft": 200,
+        "textWidgetBtn": "div.insert.mode-button",
+        "uploadImageHolder": "#fileupload-1",
+        "deleteFromPastedWidgetMenu": "div.open-right-click"
+    },
+    "addsWebLink": {
+        "textWidgetBtn": "div.insert.mode-button",
+        "optionBtn": "div.entry.link",
+        "note": "div.content textarea",
+        "addlinkBtn": "body > div.popup9.auto > div.bottom-row > button.btn.submit.cta",
+        "addedWebImageBtn": "div.vertice",
+        "deleteFromPastedWidgetMenu": "div.open-right-click"
+    },
+    "addsIframeLink": {
+        "textWidgetBtn": "div.insert.mode-button",
+        "optionBtn": "div.entry.iframe",
+        "note": "div.content textarea",
+        "addlinkBtn": "body > div.popup9.auto > div.bottom-row > button.btn.submit.cta",
+        "addedIFrameImageBtn": "div.vertice",
+        "deleteFromPastedWidgetMenu": "div.open-right-click"
+    },
+    "addsProgressBar": {
+        "textWidgetBtn": "div.insert.mode-button",
+        "optionBtn": "div.entry.progressbar",
+        "unitValue": "body > div.popup9.auto.popup-edit-progressbar > div.content > div:nth-child(1) > input",
+        "startValue": "body > div.popup9.auto.popup-edit-progressbar > div.content > div.bloc.bloc-values > div:nth-child(1) > input",
+        "currenttValue": "body > div.popup9.auto.popup-edit-progressbar > div.content > div.bloc.bloc-values > div:nth-child(2) > input",
+        "targetValue": "body > div.popup9.auto.popup-edit-progressbar > div.content > div.bloc.bloc-values > div:nth-child(3) > input",
+        "addlinkBtn": "body > div.popup9.auto.popup-edit-progressbar > div.bottom-row > button.btn.submit.cta > div.cta-label",
+        "deleteFromPastedWidgetMenu": "div.open-right-click",
+        "closeDraftBtn": "span.remove"
+    },
+    "openExistingDraft": {
+        "addBtn": "div.panel0-toggle.explorer-toggle",
+        "openTextBT": "div.entry.draft"
+    },
+    "themeSwitch": {
+        "optBtn": "div[class='bloc'] span[class='switch-box']",
+        "@assertWait": 200,
+        "colorAssert": "div:nth-child(3) > div > div.left-bloc > div.profile-bloc.bloc > div.title"
+    },
+    "shareGuestDraft": {
+        "addBtn": "div.panel0-toggle.explorer-toggle",
+        "openBtn": "div.entry.draft",
+        "shareBtn": "div.share-draft-button",
+        "shareLinkVisitUrl": "div[class='if-enabled'] div.input-bloc input"
+    },
+    "guestDraft": {},
+    "doneBtn": "div.cta.do-close",
+    "changeNoteType": {
+        "addBtn": "div.new-tab .inner",
+        "createBasicDraftBtn": "button.btn.submit",
+        "@createDraft": 200,
+        "textWidgetBtn": "div.text.mode-button",
+        "optionBtn": "div.entry.chunk",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note": "div.vertice textarea",
+        "changeColorFromPastedWidgetMenu": "div.palette-picker-toggle",
+        "colorAssert": "div.vertice",
+        "typBtn": "div.bloc.quickstyle3.button.panel2-toggle.radio.panel2-toggle.button",
+        "chunkNoteButton": "div[class='panel2-wrapper'] div[class='focus-menu-switch-panel panel2'] div[class='entry chunk']",
+        "h1NoteButton": "div[class='panel2-wrapper'] div[class='focus-menu-switch-panel panel2'] div[class='entry title2']",
+        "h2NoteButton": "div[class='panel2-wrapper'] div[class='focus-menu-switch-panel panel2'] div[class='entry title1']",
+        "h3NoteButton": "div[class='panel2-wrapper'] div[class='focus-menu-switch-panel panel2'] div[class='entry title0']",
+        "rectNoteButton": "div[class='panel2-wrapper'] div[class='focus-menu-switch-panel panel2'] div[class='entry postit-rectangle']",
+        "squareNoteButton": "div[class='panel2-wrapper'] div[class='focus-menu-switch-panel panel2'] div[class='entry postit-square']",
+        "textRectNoteButton": "div[class='panel2-wrapper'] div[class='focus-menu-switch-panel panel2'] div[class='entry textbox']",
+        "textEcllipseNoteButton": "div[class='panel2-wrapper'] div[class='focus-menu-switch-panel panel2'] div[class='entry textbox-ellipse']",
+        "textTrianglrNoteButton": "div[class='panel2-wrapper'] div[class='focus-menu-switch-panel panel2'] div[class='entry textbox-triangle']",
+        "textlosangeNoteButton": "div[class='panel2-wrapper'] div[class='focus-menu-switch-panel panel2'] div[class='entry textbox-losange']",
+        "cardNoteButton": "div[class='panel2-wrapper'] div[class='focus-menu-switch-panel panel2'] div[class='entry card3']",
+        "deleteFromPastedWidgetMenu": "div.open-right-click",
+        "closeDraftBtn": "span.remove"
+    },
+    "changeFrameType": {
+        "addBtn": "div.new-tab .inner",
+        "createBasicDraftBtn": "button.btn.submit",
+        "@createDraft": 200,
+        "textWidgetBtn": "div.shape.mode-button",
+        "optionBtn": "div.entry.rectangle",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "changeColorFromPastedWidgetMenu": "div.palette-picker-toggle",
+        "colorAssert": "div.vertice-path-title",
+        "typBtn": "div.panel2-toggle.button.not-filled",
+        "filledBtn": "div.option.button.filled-not-transparent",
+        "fill2Btn": "div.option.button.filled-no-border",
+        "fill3Btn": "div.option.button.filled",
+        "deleteFromPastedWidgetMenu": "div.open-right-click"
+    },
+    "changeEllipticalFrameType": {
+        "textWidgetBtn": "div.shape.mode-button",
+        "optionBtn": "div.entry.ellipse",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "changeColorFromPastedWidgetMenu": "div.palette-picker-toggle",
+        "typBtn": "div.panel2-toggle.button.not-filled",
+        "filledBtn": "div.option.button.filled-not-transparent",
+        "fill2Btn": "div.option.button.filled-no-border",
+        "fill3Btn": "div.option.button.filled",
+        "deleteFromPastedWidgetMenu": "div.open-right-click"
+    },
+    "changeHullWidgetType": {
+        "textWidgetBtn": "div.group.mode-button",
+        "optionBtn": "div.entry.hull-polygon",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "changeColorFromPastedWidgetMenu": "div.palette-picker-toggle",
+        "typBtn": "div.panel2-toggle.button.polygon",
+        "rectBtn": "div.option.button.rectangle",
+        "deleteFromPastedWidgetMenu": "div.open-right-click"
+    },
+    "sharePermmitedDraft": {
+        "addBtn": "div.panel0-toggle.explorer-toggle",
+        "openBtn": "div.explorer2 > div > div > div.right-bloc > div.explorer.row > div.scroll-wrapper > div > div:nth-child(2) > div.bloc-name > div.bloc-right > div.name",
+        "shareBtn": "div.share-draft-button",
+        "emailShare": "input[placeholder='Enter email addresses']",
+        "permitBtn": "div[class='invite-wrapper'] div[class='selectbox']",
+        "selectPermitBtn": "div[class='selectbox-panel'] div:nth-child(3)",
+        "invBtn": "div[class='cta-spinable send']",
+        "visitShareDraft": "div[class='if-enabled'] div.input-bloc input",
+        "email": "input[placeholder='Email'",
+        "password": "input[placeholder='Password']",
+        "loginBtn": ".cta.sign-in",
+        "@login": 200,
+        "exBtn": "div.panel0-toggle.explorer-toggle",
+        "draftopenBtn": "div.explorer2 > div > div > div.right-bloc > div.explorer.row > div.scroll-wrapper > div > div:nth-child(2) > div.bloc-name > div.bloc-right > div.name"
+    },
+    "changeTextSize": {
+        "addBtn": "div.new-tab .inner",
+        "createBasicDraftBtn": "button.btn.submit",
+        "@createDraft": 200,
+        "textWidgetBtn": "div.text.mode-button",
+        "optionBtn": "div.entry.chunk",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note": "div.vertice textarea",
+        "changeColorFromPastedWidgetMenu": "div.palette-picker-toggle",
+        "colorAssert": "div.vertice",
+        "typBtn": "div.bloc.quickstyle3.button.panel2-toggle.radio.panel2-toggle.button",
+        "chunkNoteButton": "div[class='panel2-wrapper'] div[class='focus-menu-switch-panel panel2'] div[class='entry chunk']",
+        "h1NoteButton": "div[class='panel2-wrapper'] div[class='focus-menu-switch-panel panel2'] div[class='entry title2']",
+        "h2NoteButton": "div[class='panel2-wrapper'] div[class='focus-menu-switch-panel panel2'] div[class='entry title1']",
+        "h3NoteButton": "div[class='panel2-wrapper'] div[class='focus-menu-switch-panel panel2'] div[class='entry title0']",
+        "rectNoteButton": "div[class='panel2-wrapper'] div[class='focus-menu-switch-panel panel2'] div[class='entry postit-rectangle']",
+        "squareNoteButton": "div[class='panel2-wrapper'] div[class='focus-menu-switch-panel panel2'] div[class='entry postit-square']",
+        "textRectNoteButton": "div[class='panel2-wrapper'] div[class='focus-menu-switch-panel panel2'] div[class='entry textbox']",
+        "textEcllipseNoteButton": "div[class='panel2-wrapper'] div[class='focus-menu-switch-panel panel2'] div[class='entry textbox-ellipse']",
+        "textTrianglrNoteButton": "div[class='panel2-wrapper'] div[class='focus-menu-switch-panel panel2'] div[class='entry textbox-triangle']",
+        "textlosangeNoteButton": "div[class='panel2-wrapper'] div[class='focus-menu-switch-panel panel2'] div[class='entry textbox-losange']",
+        "cardNoteButton": "div[class='panel2-wrapper'] div[class='focus-menu-switch-panel panel2'] div[class='entry card3']",
+        "deleteFromPastedWidgetMenu": "div.open-right-click",
+        "closeDraftBtn": "span.remove"
+    },
+    "addsCardFeatures": {
+        "addBtn": "div.new-tab .inner",
+        "createBasicDraftBtn": "button.btn.submit",
+        "@createDraft": 200,
+        "textWidgetBtn": "div.text.mode-button",
+        "optionBtn": "div.entry.card3",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note": "div.vertice textarea",
+        "changeColorFromPastedWidgetMenu": "div.palette-picker-toggle"
+    },
+    "addsCardDescFeatures": {
+        "expandBtn": "div.panel2-toggle.button.expand",
+        "desc": "textarea[placeholder='Add description']"
+    },
+    "addsCardStatusFeatures": {
+        "todoBtn": "div[class='status card3 selectbox'] div[class='option todo selected']",
+        "inprogessBtn": "div.option.in-progress"
+    },
+    "addsCardTagsFeatures": {
+        "tagBtn": "div[class='options-bloc'] div:nth-child(2)",
+        "addTagBtn": "div.btn.open-add-tag",
+        "tag1": ".tag-editor > .field",
+        "addTag1Btn": ".tag-editor > .btn > .icon",
+        "tag2Btn": "div[class='options-bloc'] div:nth-child(2)",
+        "addTag2Btn": "div.btn.open-add-tag",
+        "tag2": ".tag-editor > .field",
+        "addTag3Btn": ".tag-editor > .btn > .icon"
+    },
+    "addsCardPastillesFeatures": {
+        "addPastilesBtn": ".options-bloc > :nth-child(3)"
+    },
+    "addsCardAssignee": {
+        "asigneeBtn": ".options-bloc > :nth-child(4)",
+        "assignee": "input[class='display-name assignee-input']"
+    },
+    "addsCardPriority": {
+        "priorityBtn": ".options-bloc > :nth-child(5)",
+        "pr1Btn": "div[class='data priority-data'] div[class='priority card3 selectbox']",
+        "prMeduimBtn": "div[class='priority card3 selectbox-panel'] div[class='option medium'] div[class='label']"
+    },
+    "addsCardComplexity": {
+        "complexBtn": ".options-bloc > :nth-child(6)",
+        "cLevelBtn": "div[class='data complexity-data'] div[class='complexity card3 selectbox']",
+        "cLevel2Btn": "div[class='complexity card3 selectbox-panel popin'] div[class='option 13']"
+    },
+    "addsCardChecklist": {
+        "chkListBtn": ".options-bloc > :nth-child(7)",
+        "listitem": "textarea[placeholder='Description']",
+        "enterBtn": "div.add-entry",
+        "submitBtn": ".btn.submit",
+        "deleteFromPastedWidgetMenu": "div.open-right-click",
+        "closeDraftBtn": "span.remove"
+    },
+    "zoomIN": {
+        "addBtn": "div.new-tab .inner",
+        "createBasicDraftBtn": "button.btn.submit",
+        "@createDraft": 200,
+        "textWidgetBtn": "div.text.mode-button",
+        "optionBtn": "div.entry.card3",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note": "div.vertice textarea",
+        "zoomInDoubleClick": "div.zoombar .pm.plus"
+    },
+    "zoomOut": {
+        "zoomInDoubleClick": "div.zoombar .pm.minus"
+    },
+    "fitScreen": {
+        "fitScreenBtn": "div.fit-to-screen"
+    },
+    "miniMap": {
+        "miniMapBtn": "div.minimap-toggle",
+        "menuDraftBtn": "span.btn.actions",
+        "destroyBtn": "div.destroy-draft.choice",
+        "confrmBtn": ".btn.submit.cta"
+    },
+    "gridOff": {
+        "addBtn": "div.new-tab .inner",
+        "createBasicDraftBtn": "button.btn.submit",
+        "@createDraft": 200
+    },
+    "itemOne": {
+        "textWidgetBtn": "div.text.mode-button",
+        "optionBtn": "div.entry.postit-rectangle",
+        "draftDropClickArea": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note": "div.vertice textarea"
+    },
+    "itemTwo": {
+        "Move":""
+    },
+    "widgetDraft": {
+        "addBtn": "div.new-tab .inner",
+        "createBasicDraftBtn": "button.btn.submit",
+        "@createDraft": 200,
+        "textWidgetBtn": "div.text.mode-button",
+        "optionBtn": "div.entry.title2",
+        "draftDropClickArea": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note": "div.vertice textarea",
+        "textWidget2Btn": "div.text.mode-button",
+        "option2Btn": "div.entry.card3",
+        "note2": "div.vertice textarea",
+        "draft2DropClickArea": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "text3WidgetBtn": "div.text.mode-button",
+        "option3Btn": "div.entry.textbox-losange",
+        "draft3DropClickArea": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg"
+    },
+    "destroyDraft": {
+        "menuDraftBtn": "span.btn.actions",
+        "destroyBtn": "div.destroy-draft.choice",
+        "confrmBtn": ".btn.submit.cta"
+    },
+    "undoDraft": {
+        "undoBtn": "div.button.undo"
+    },
+    "redoDraft": {
+        "redoBtn": "div.button.redo",
+        "menuDraftBtn": "span.btn.actions",
+        "destroyBtn": "div.destroy-draft.choice",
+        "confrmBtn": ".btn.submit.cta"
+    },
+    "multiItems": {
+        "addBtn": "div.new-tab .inner",
+        "createBasicDraftBtn": "button.btn.submit",
+        "@createDraft": 200,
+        "textWidgetBtn": "div.text.mode-button",
+        "optionBtn": "div.entry.title1",
+        "draftDropClickArea": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note": "div.vertice textarea",
+        "textWidget2Btn": "div.text.mode-button",
+        "option2Btn": "div.entry.card3",
+        "draft2DropClickArea": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note2": "div.vertice textarea",
+        "text3WidgetBtn": "div.text.mode-button",
+        "option3Btn": "div.entry.postit-rectangle",
+        "draft3DropClickArea": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note3": "div.vertice textarea",
+        "text4WidgetBtn": "div.text.mode-button",
+        "option4Btn": "div.entry.title1",
+        "draft4DropClickArea": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note4": "div.vertice textarea"
+    },
+    "multiSelect": {
+        "optionBtn": "div.mode-button.select",
+        "draftMultiple": "body >  div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "changeColorFromPastedWidgetMenu": "div.palette-picker-toggle",
+        "menuDraftBtn": "span.btn.actions",
+        "destroyBtn": "div.destroy-draft.choice",
+        "confrmBtn": ".btn.submit.cta"
+    },
+    "widegetInList": {
+        "addBtn": "div.new-tab .inner",
+        "createBasicDraftBtn": "button.btn.submit",
+        "@createDraft": 200,
+        "settingsBtn": "div.button-settings",
+        "listBtn": ".create-list-with-dnd.row",
+        "@assertSettings": 200,
+        "textWidgetBtn": "div.text.mode-button",
+        "optionBtn": "div.entry.chunk",
+        "draftDropClickArea": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note": "div.vertice textarea",
+        "note1": "textarea[class='field']",
+        "note2": "textarea[class='field']",
+        "note3": "textarea[class='field']",
+        "note4": "textarea[class='field']",
+        "note5": "textarea[class='field']"
+    },
+    "widegetInHull": {
+        "textWidget2Btn": "div.text.mode-button",
+        "option2Btn": "div.entry.card3",
+        "draft2DropClickArea": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note2": "div.vertice textarea",
+        "text3WidgetBtn": "div.text.mode-button",
+        "option3Btn": "div.entry.postit-rectangle",
+        "draft3DropClickArea": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note3": "div.vertice textarea",
+        "text4WidgetBtn": "div.text.mode-button",
+        "option4Btn": "div.entry.title1",
+        "draft4DropClickArea": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note4": "div.vertice textarea",
+        "textWidgetBtn": "div.group.mode-button",
+        "optionBtn": "div.entry.hull-polygon",
+        "draftMultiple": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "menuDraftBtn": "span.btn.actions",
+        "destroyBtn": "div.destroy-draft.choice",
+        "confrmBtn": ".btn.submit.cta"
+    },
+    "widegetInFrame": {
+        "textWidget2Btn": "div.text.mode-button",
+        "option2Btn": "div.entry.card3",
+        "draft2DropClickArea": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note2": "div.vertice textarea",
+        "text3WidgetBtn": "div.text.mode-button",
+        "option3Btn": "div.entry.postit-rectangle",
+        "draft3DropClickArea": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note3": "div.vertice textarea",
+        "text4WidgetBtn": "div.text.mode-button",
+        "option4Btn": "div.entry.title1",
+        "draft4DropClickArea": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note4": "div.vertice textarea",
+        "textWidgetBtn": "div.group.mode-button",
+        "optionBtn": "div.entry.hull-rectangle",
+        "draftMultiple": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "menuDraftBtn": "span.btn.actions",
+        "destroyBtn": "div.destroy-draft.choice",
+        "confrmBtn": ".btn.submit.cta"
+    },
+    "votingSession": {
+        "addBtn": "div.new-tab .inner",
+        "createBasicDraftBtn": "button.btn.submit",
+        "@createDraft": 200,
+        "draftRightClickMenu": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "maxVotes": "#max-votes-per-person",
+        "maxPerson": "#max-votes-per-person-per-item",
+        "submitVotingBtn": "button.submit.cta"
+    },
+    "addPollingBooth": {
+        "draftRightClickMenu": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "submitPollBtn": "button.submit.cta",
+        "textWidgetBtn": "div.text.mode-button",
+        "optionBtn": "div.entry.postit-rectangle",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note": "div.vertice textarea",
+        "stopVoteBtn": ".vote > .stop",
+        "submitEndVotingBtn": "button.submit.cta",
+        "stopPollingBtn": ".isoloir > .stop",
+        "submitVotingBtn": "button.submit.cta"
+    },
+    "timmerDraft": {
+        "addBtn": "div.new-tab .inner",
+        "createBasicDraftBtn": "button.btn.submit",
+        "@createDraft": 200,
+        "draftRightClickMenu": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "minutes": "div[class='mins'] input:nth-child(1)",
+        "seconds": "div[class='secs'] input:nth-child(2)",
+        "submitVotingBtn": "button.submit.cta",
+        "textWidgetBtn": "div.text.mode-button",
+        "optionBtn": "div.entry.postit-rectangle",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note": "div.vertice textarea"
+    },
+    "dumpDraft": {
+        "addBtn": "div.new-tab .inner",
+        "createBasicDraftBtn": "button.btn.submit",
+        "@createDraft": 200,
+        "draftRightClickMenu": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "textWidgetBtn": "div.text.mode-button",
+        "optionBtn": "div.entry.postit-rectangle",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note": "div.vertice textarea"
+    },
+    "exportPNG": {
+        "addBtn": "div.new-tab .inner",
+        "createBasicDraftBtn": "button.btn.submit",
+        "@createDraft": 200,
+        "textWidgetBtn": "div.text.mode-button",
+        "optionBtn": "div.entry.card3",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note": "div.vertice textarea",
+        "changeColorFromPastedWidgetMenu": "div.palette-picker-toggle",
+        "exportPastedWidgetMenu": "div.open-right-click",
+        "expBtn": "div.entry.download-as-visible",
+        "subBtn": ".cta",
+        "@assertDownload": 200
+    },
+    "exportCSV": {
+        "textWidgetBtn": "div.text.mode-button",
+        "optionBtn": "div.entry.card3",
+        "draftDropClickArea": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note": "div.vertice textarea",
+        "exportPastedWidgetMenu": "div.open-right-click",
+        "expBtn": "div.entry.download-as-csv",
+        "subBtn": "button.submit",
+        "menuDraftBtn": "span.btn.actions",
+        "destroyBtn": "div.destroy-draft.choice",
+        "confrmBtn": ".btn.submit.cta"
+    },
+    "openDraft": {
+        "addBtn": "div.new-tab .inner",
+        "name": "input[value='Untitled draft']",
+        "createBasicDraftBtn": "button.btn.submit",
+        "@createDraft": 200,
+        "textWidgetBtn": "div.text.mode-button",
+        "optionBtn": "div.entry.postit-rectangle",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note": "div.vertice textarea",
+        "expBtn": "div.panel0-toggle.explorer-toggle"
+        
+    },
+    "classifyDraft": {
+        "folderTextBR": "div.entry.draft",
+        "moveBtn": "div.entry.move-to",
+        "foldDoubleClick":"body > div.popup9.auto.move-to > div.content > div.entries > div:nth-child(1)",
+        "submitBtn": ".cta",
+        "folderTextBT": "div.entry.folder",
+        "expBtn": "div.panel0-toggle.explorer-toggle",
+        "menuDraftBtn": "span.btn.actions",
+        "destroyBtn": "div.destroy-draft.choice",
+        "confrmBtn": ".btn.submit.cta"
+
+    }
+}

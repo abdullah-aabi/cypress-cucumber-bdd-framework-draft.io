@@ -1,0 +1,30 @@
+{
+  "name": "pixelsoft-ssignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "e2e:chrome": "cypress run --record --browser chrome --key 2afe2e5b-772a-4c74-b29f-b7bee58fae7c",
+    "single:chrome": "cypress run --spec 'cypress/integration/Product_Side_Specs/MediaWidget.feature' --record --browser chrome --key 2afe2e5b-772a-4c74-b29f-b7bee58fae7c --headed"
+  },
+  "author": "Abdullah",
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.1.0",
+    "cucumber": "^7.0.0-rc.0",
+    "cypress": "^9.2.0",
+    "cypress-cucumber-preprocessor": "^4.3.0",
+    "cypress-downloadfile": "^1.2.1",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mailosaur": "^2.3.3",
+    "har-validator": "^5.1.5",
+    "mochawesome": "^7.0.1",
+    "mochawesome-merge": "^4.2.0",
+    "start-server-and-test": "^1.14.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "profile": "div.option.profile",
+    "changesLanguage": {
+        "chosenLanguage": "div.lang .selected",
+
+        "choseFrenchBtn": "div.selectbox-panel .fr",
+
+        "@updateLanguage": 200,
+
+        "choseEnglishBtn": "div.selectbox-panel .en",
+        "@updateLanguage2": 200
+    }
+}

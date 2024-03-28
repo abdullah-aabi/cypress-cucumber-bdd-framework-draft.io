@@ -1,0 +1,380 @@
+{
+    "addsPlainLine": {
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-ec5a86 > div",
+        "colorAssert": {
+            "property": "stroke",
+            "color": "rgb(236, 90, 134)"
+        },
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "addsSingleHeadedArrow": {
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-fee734 > div",
+        "colorAssert": {
+            "property": "stroke",
+            "color": "rgb(254, 231, 52)"
+        },
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "addsDoubleHeadedArrow": {
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-42a445 > div",
+        "colorAssert": {
+            "property": "stroke",
+            "color": "rgb(66, 164, 69)"
+        },
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "adds2x2Matrix": {
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-feee70 > div",
+        "colorAssert": {
+            "property": "stroke",
+            "color": "rgb(254, 238, 112)"
+        },
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "addsXyReferencedCentered": {
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-b832d3 > div",
+        "colorAssert": {
+            "property": "stroke",
+            "color": "rgb(184, 50, 211)"
+        },
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "addsXyReference": {
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-ffffff > div",
+        "colorAssert": {
+            "property": "stroke",
+            "color": "rgb(255, 255, 255)"
+        },
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "addsRectangleFrame": {
+        "note": "Rectangular Frame",
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-feee70 > div",
+        "colorAssert": {
+            "property": "color",
+            "color": "rgb(254, 245, 173)"
+        },
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "addsEllipticalFrame": {
+        "note": "EllipticalFrame",
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-ffffff > div",
+        "colorAssert": {
+            "property": "color",
+            "color": "rgb(254, 238, 112)"
+        },
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "addsPolygoneHull": {
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-feee70 > div",
+        "colorAssert": {
+            "property": "stroke",
+            "color": "rgb(254, 245, 173)"
+        },
+        "note": "PolyGon Hull",
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "addsRectangleHull": {
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-42a445 > div",
+        "colorAssert": {
+            "property": "stroke",
+            "color": "rgb(66, 164, 69)"
+        },
+        "note": "Rectangle Hull",
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "addsFreeHandDrawing": {
+        "draftDropDraw": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "addsHandWritting": {
+        "draftDropCanvasDraw": "div.entry.handwrite",
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "addsLocalMedia": {
+        "uploadImageHolder": "valid_image.png",
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "addsWebLink": {
+        "note": "https://www.google.com",
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "addsIframeLink": {
+        "note": "https://www.google.com",
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "addsProgressBar": {
+        "unitValue": "Percentage",
+        "startValue": "20",
+        "currenttValue": "57",
+        "targetValue": "98",
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "openExistingDraft": {
+        "openTextBT": "01A Draft"
+    },
+    "themeSwitch": {},
+    "shareGuestDraft": {
+        "note": "abc@gmail.com",
+        "checkTextButton": "Enable link sharing",
+        "colorAssert": {
+            "property":"color",
+            "color":"rgba(255,255,255,0.9)"
+        }
+    },
+    "guestDraft": {},
+    "changeNoteType": {
+        "note": "Chunked Note",
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-ffffff > div",
+        "colorAssert": {
+            "property": "background-color",
+            "color": "rgb(255, 255, 255)"
+        },
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "changeFrameType": {
+        "note": "Frame Widget",
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-ffffff > div",
+        "colorAssert": {
+            "property": "color",
+            "color": "rgb(255, 255, 255)"
+        },
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "changeEllipticalFrameType": {
+        "note": "Ellipticle Frame Widget",
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-feee70 > div",
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "changeHullWidgetType": {
+        "note": "Hull Widget",
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-feee70 > div",
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "sharePermmitedDraft": {
+        "emailShare": "johndoe@1ne6kyhd.mailosaur.net",
+        "email": "johndoe@1ne6kyhd.mailosaur.net",
+        "password": "Draft@123"
+    },
+    "changeTextSize": {
+        "note": "Chunked Note",
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-ffffff > div",
+        "colorAssert": {
+            "property": "background-color",
+            "color": "rgb(255, 255, 255)"
+        },
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "automateLogin": {
+        "emailShare": "johndoe+1@igi8ivee.mailosaur.net",
+        "email": "johndoe+1@igi8ivee.mailosaur.net",
+        "password": "Draft@123",
+        "note": "This is End to End Login Test case",
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "destroyTextDraft": {},
+    "destroyLineDraft": {},
+    "destroyFrameDraft": {},
+    "destroyHullDraft": {},
+    "destroyMediaDraft": {},
+    "setDraftPassword": {
+        "note": "Draft Password id 1234",
+        "passNew": "1234",
+        "passNewCnfrm": "1234",
+        "enterWithepassword": "1234"
+    },
+    "duplicateDraft": {
+        "note": "Duplicating Draft"
+    },
+    "clasicCSV": {
+        "note": "Exporting Draft drafts as CSV and Image"
+    },
+    "mediumqualityImage": {},
+    "createDraftFolder": {
+        "note": "DraftFolder",
+        "btnRightClickMenu": "div.entry.open",
+        "note2": "Opened a draft in new DraftFolder Test Cases",
+        "btn2RightClickMenu": "div.entry.del"
+    },
+    "shareDraftFolder": {
+        "note": "DraftFolder",
+        "btnRightClickMenu": "div.entry.open",
+        "note2": "Sharing a DraftFolder Test Cases",
+        "btn2RightClickMenu": "div.entry.share",
+        "invEntry": "abc@gmail.com",
+        "btn3RightClickMenu": "div.entry.share",
+        "btn4RightClickMenu": "div.entry.del"
+    },
+    "zoomIN": {
+        "note": "Zoom IN & Zoom Out Test Cases"
+    },
+    "zoomOut": {},
+    "miniMap": {},
+    "fitScreen": {},
+    "gridOff": {},
+    "itemOne": {
+        "note": "Item 1",
+        "draftDropClickArea": {
+            "x_axis": 340,
+            "y_axis": 230
+        }
+    },
+    "itemTwo": {
+        "note": "Item 2",
+        "draftDropClickArea": {
+            "x_axis": 550,
+            "y_axis": 230
+        },
+        "draft2DropClickArea": {
+            "x_axis": 850,
+            "y_axis": 830
+        },
+        "draftMove": "1"
+    },
+    "widgetDraft": {
+        "note": "AUTOMATE UNDO & REDO Test CASES",
+        "draftDropClickArea": {
+            "x_axis": 100,
+            "y_axis": 100
+        },
+        "note2": "Widget 1 Card",
+        "draft2DropClickArea": {
+            "x_axis": 200,
+            "y_axis": 300
+        },
+        "note3": "Widget 2 Rhombus",
+        "draft3DropClickArea": {
+            "x_axis": 500,
+            "y_axis": 300
+        }
+    },
+    "undoDraft": {},
+    "redoDraft": {},
+    "multiItems": {
+        "note": "MultiSelect Test CASES",
+        "draftDropClickArea": {
+            "x_axis": 50,
+            "y_axis": 50
+        },
+        "note2": "Widget 1 Card",
+        "draft2DropClickArea": {
+            "x_axis": 100,
+            "y_axis": 150
+        },
+        "note3": "Widget 2",
+        "draft3DropClickArea": {
+            "x_axis": 350,
+            "y_axis": 150
+        },
+        "note4": "All items will be selected now by using multiple select widget",
+        "draft4DropClickArea": {
+            "x_axis": 150,
+            "y_axis": 350
+        }
+    },
+    "multiSelect": {
+        "draftMultiple": {
+            "x": 600,
+            "y": 600
+        },
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-42a445 > div"
+    },
+    "widegetInList": {
+        "draftDropClickArea": {
+            "x_axis": 100,
+            "y_axis": 100
+        },
+        "note": "List # 123{enter}",
+        "note1": "item 1{enter}",
+        "note2": "item 2{enter}",
+        "note3": "item 3{enter}",
+        "note4": "item 4{enter}",
+        "note5": "item 5"
+    },
+    "widegetInHull": {
+        "draftMultiple": {
+            "x": 700,
+            "y": 700
+        },
+        "note2": "Widget 1 Card",
+        "draft2DropClickArea": {
+            "x_axis": 200,
+            "y_axis": 150
+        },
+        "note3": "Widget 2",
+        "draft3DropClickArea": {
+            "x_axis": 450,
+            "y_axis": 150
+        },
+        "note4": "All items will be added in Hull Widget now by drag & drop",
+        "draft4DropClickArea": {
+            "x_axis": 250,
+            "y_axis": 350
+        }
+    },
+    "widegetInFrame": {
+        "draftMultiple": {
+            "x": 800,
+            "y": 800
+        },
+        "note2": "Widget 1 Card to add in frame",
+        "draft2DropClickArea": {
+            "x_axis": 200,
+            "y_axis": 150
+        },
+        "note3": "Widget 2",
+        "draft3DropClickArea": {
+            "x_axis": 450,
+            "y_axis": 150
+        },
+        "note4": "All items will be added in Frame Widget",
+        "draft4DropClickArea": {
+            "x_axis": 250,
+            "y_axis": 350
+        }
+    },
+    "destroyDraft": {},
+    "votingSession": {
+        "draftRightClickMenu": "div.entry.vote-mode",
+        "maxVotes": "100",
+        "maxPerson": "120"
+    },
+    "addPollingBooth": {
+        "draftRightClickMenu": "div.entry.isoloir-mode",
+        "note": "Voting Session stated Visible at the top. Polling Booth is starting now"
+    },
+    "timmerDraft": {
+        "draftRightClickMenu": "div.entry.timer",
+        "minutes": "1",
+        "seconds": "9",
+        "note": "Timmer Session stated Visible at the top."
+    },
+    "dumpDraft": {
+        "draftRightClickMenu": "div.entry.dump",
+        "note": "Dump a draft in the local storage"
+    },
+    "exportPNG": {
+        "note": "Exporting Card Widget as png",
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-feee70 > div",
+        "exportPastedWidgetMenu": "div.row.export"
+    },
+    "exportCSV": {
+        "note": "Exporting Card Widget as csv",
+        "exportPastedWidgetMenu": "div.row.export",
+        "draftDropClickArea": {
+            "x_axis": 200,
+            "y_axis": 200
+        }
+    },
+    "openDraft": {
+        
+        "name": "Chart Draft",
+        "note": "This draft is going to be classified into a specified folder"
+        
+    },
+    "classifyDraft": {
+        "folderName": "Charts",
+        "folderTextBR": "Chart Draft",
+        "folderTextBT": "Charts"
+    }
+}

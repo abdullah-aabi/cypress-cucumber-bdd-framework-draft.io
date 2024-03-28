@@ -1,0 +1,24 @@
+{
+    "createsAccount": {
+        "UNIQUE_Email": "johndoe+1@ga1nkdxl.mailosaur.net",
+        "passwordField": "Draft@123",
+        "confirmPasswordFeild": "Draft@123"
+    },
+    "invalidFields": {
+        "emailErrorMsg": "Invalid email address",
+        "emailField": "johndoe+1@obptbnjn.mailosaur.net",
+        "passwordError1Msg": "Password must be at least 6 characters",
+        "passwordField": "123",
+        "passwordError2Msg": "Password must be at least 6 characters",
+        "password2Field": "Draft@123",
+        "passwordError3Msg": "Passwords don't match",
+        "confirmPasswordFeild": "123",
+        "passwordError4Msg": "Passwords don't match"
+    },
+    "alreadyExistingAccount": {
+        "emailField": "johndoe+1@obptbnjn.mailosaur.net",
+        "passwordField": "Draft@123",
+        "confirmPasswordFeild": "Draft@123",
+        "alreadyExistingAccountMsg": "You have just tried to create a new account on Draft, but there is already one with your email address. If you need to sign in you can do it from"
+    }
+}

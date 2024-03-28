@@ -1,0 +1,89 @@
+{
+    "addsCardFeatures": {
+        "addBtn": "div.new-tab .inner",
+        "createBasicDraftBtn": "button.btn.submit",
+        "@createDraft": 200,
+        "textWidgetBtn": "div.text.mode-button",
+        "optionBtn": "div.entry.card3",
+        "draftDropCanvas": "body > div.window.fullscreen.focused > div.container > div.draft-edit > div.map-viewport > div.map > svg",
+        "note": "div.vertice textarea",
+        "changeColorFromPastedWidgetMenu": "div.palette-picker-toggle"
+    },
+    "addsCardDescFeatures": {
+        "expandBtn": "div.panel2-toggle.button.expand",
+        "desc": "textarea[placeholder='Add description']"
+    },
+    "addsCardStatusFeatures": {
+        "todoBtn": "div[class='status card3 selectbox'] div[class='option todo selected']",
+        "inprogessBtn": "div.option.in-progress"
+    },
+    "addsCardTagsFeatures": {
+        "tagBtn": "div[class='options-bloc'] div:nth-child(2)",
+        "addTagBtn": "div.btn.open-add-tag",
+        "tag1": ".tag-editor > .field",
+        "addTag1Btn": ".tag-editor > .btn > .icon",
+        "tag2Btn": "div[class='options-bloc'] div:nth-child(2)",
+        "addTag2Btn": "div.btn.open-add-tag",
+        "tag2": ".tag-editor > .field",
+        "addTag3Btn": ".tag-editor > .btn > .icon"
+    },
+    "addsCardPastillesFeatures": {
+        "addPastilesBtn": ".options-bloc > :nth-child(3)"
+    },
+    "addsCardAssignee": {
+        "asigneeBtn": ".options-bloc > :nth-child(4)",
+        "assignee": "input[class='display-name assignee-input']"
+    },
+    "addsCardPriority": {
+        "priorityBtn": ".options-bloc > :nth-child(5)",
+        "pr1Btn": "div[class='data priority-data'] div[class='priority card3 selectbox']",
+        "prMeduimBtn": "div[class='priority card3 selectbox-panel'] div[class='option medium'] div[class='label']"
+    },
+    "addsCardComplexity": {
+        "complexBtn": ".options-bloc > :nth-child(6)",
+        "cLevelBtn": "div[class='data complexity-data'] div[class='complexity card3 selectbox']",
+        "cLevel2Btn": "div[class='complexity card3 selectbox-panel popin'] div[class='option 13']"
+    },
+    "addsCardChecklist": {
+        "chkListBtn": ".options-bloc > :nth-child(7)",
+        "listitem": "textarea[placeholder='Description']",
+        "enterBtn": "div.add-entry",
+        "submitBtn": ".btn.submit",
+        "deleteFromPastedWidgetMenu": "div.open-right-click",
+        "closeDraftBtn": "span.remove"
+    },
+    "currentCardStatus": {
+        "statBtn": "div.status.selectbox"
+    },
+    "changeCardStatus": {
+        "menuBtn": ".btn.actions",
+        "statBtn": "div.edit-status-list.choice",
+        "typStatusReplace": "div[class='content'] textarea",
+        "sbmtBtn": ".btn.submit.cta",
+        "statvBtn": "div.status.selectbox",
+        "menuDraftBtn": "span.btn.actions",
+        "destroyBtn": "div.destroy-draft.choice",
+        "confrmBtn": ".btn.submit.cta"
+    },
+    "currentCardComplexity": {
+        "expandBtn": "div.panel2-toggle.button.expand",
+        "complexBtn": ".options-bloc > :nth-child(6)",
+        "cLevelBtn": "div[class='data complexity-data'] div[class='complexity card3 selectbox']",
+        "cLevel2Btn": "div[class='complexity card3 selectbox-panel popin'] div[class='option 13']",
+        "enterBtn": "button.btn.submit",
+        "currentBtn": "div.complexity.card3"
+    },
+    "changeCardComplexity": {
+        "menuBtn": "span.btn.actions",
+        "complexityBtn": "div.edit-complexity-choices",
+        "customBtn": "div.option.custom",
+        "series": "input[placeholder='2h, 3j, XS, L, ...']",
+        "enterBtn": "button.btn.submit"
+    },
+    "showCardComplexity": {
+        "currentBtn": "div.complexity.card3",
+        "menuDraftBtn": "span.btn.actions",
+        "destroyBtn": "div.destroy-draft.choice",
+        "confrmBtn": ".btn.submit.cta"
+    }
+}

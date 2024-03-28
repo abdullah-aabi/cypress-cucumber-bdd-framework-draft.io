@@ -1,0 +1,97 @@
+{
+    "createsChunkedNote": {
+        "note": "Chunked Note",
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-ffffff > div",
+        "colorAssert": {
+            "property": "background-color",
+            "color": "rgb(255, 255, 255)"
+        },
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "addsHeadingOne": {
+        "note": "Heading one > 45px",
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-f23930 > div",
+        "colorAssert": {
+            "property": "color",
+            "color": "rgb(242, 57, 48)"
+        },
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "addsHeadingTwo": {
+        "note": "Heading two > 22px",
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-b832d3 > div",
+        "colorAssert": {
+            "property": "color",
+            "color": "rgb(184, 50, 211)"
+        },
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "addsHeadingThree": {
+        "note": "Heading three > 15px",
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-29e3ff > div",
+        "colorAssert": {
+            "property": "color",
+            "color": "rgb(41, 227, 255)"
+        },
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "createsSquareStickyNotes": {
+        "note": "Sticky Rectangle",
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-ffffff > div",
+        "colorAssert": {
+            "property": "background-color",
+            "color": "rgb(255, 255, 255)"
+        },
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "createsRectangularStickyNotes": {
+        "note": "Sticky Square",
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-b832d3 > div",
+        "colorAssert": {
+            "property": "background-color",
+            "color": "rgb(184, 50, 211)"
+        },
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "createsRectangularTextBox": {
+        "note": "Rectangle TextBox",
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-29e3ff > div",
+        "colorAssert": {
+            "property": "color",
+            "color": "rgb(41, 227, 255)"
+        },
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "createsEllipseTextBox": {
+        "note": "Ellipse TextBox",
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-b832d3 > div",
+        "colorAssert": {
+            "property": "color",
+            "color": "rgb(184, 50, 211)"
+        },
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "createsTriangleTextBox": {
+        "note": "Triangle TextBox",
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-feee70 > div",
+        "colorAssert": {
+            "property": "color",
+            "color": "rgb(254, 238, 112)"
+        },
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "createsRhombusTextBox": {
+        "note": "Rhombus TextBox",
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-ec5a86 > div",
+        "colorAssert": {
+            "property": "color",
+            "color": "rgb(236, 90, 134)"
+        },
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "createsCard": {
+        "note": "Card",
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-feee70 > div",
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    }    
+}

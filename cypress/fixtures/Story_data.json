@@ -1,0 +1,276 @@
+{
+    "addsHeading1": {
+        "note": "User Story Mapping",
+        "draftDropClik2": {
+            "x_axis": 20,
+            "y_axis": 100      },
+        "note2": "----------------",
+        "draft2DropClickArea": {
+            "x_axis": 1190,
+            "y_axis": 115       }
+    },
+    "addsPersona": {
+        "note": "Persona",
+        "draftDropClickArea": {
+            "x_axis": 20,
+            "y_axis": 110
+        }
+    },
+    "BigAct": {
+        "note": "BigActivity",
+        "draftDropClickArea": {
+            "x_axis": 20,
+            "y_axis": 240
+        }
+    },
+    "addsRhombus1": {
+        "note": "Persona",
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-db98e9 > div",
+        "draftDropClik2": {
+            "x_axis": 160,
+            "y_axis": 200
+        }
+    },
+    "RectangularStickyNotes1": {
+        "note": "Epic",
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-b832d3 > div",
+        "draftDropClik2": {
+            "x_axis": 220,
+            "y_axis": 300
+        },
+        "note2": "Feature",
+        "change2ColorFromPastedWidgetMenu": "div.panel2 > div > #color-29e3ff > div",
+        "draft2DropClik2": {
+            "x_axis": 210,
+            "y_axis": 400
+        }
+    },
+    "RectangularStickyNotes2": {
+        "note": "Feature",
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-29e3ff > div",
+        "draftDropClik2": {
+            "x_axis": 400,
+            "y_axis": 400
+        },
+        "note2": "Feature",
+        "draft2DropClik2": {
+            "x_axis": 630,
+            "y_axis": 400
+        },
+        "note3": "Persona",
+        "change3ColorFromPastedWidgetMenu": "div.panel2 > div > #color-db98e9 > div",
+        "draft3DropClik2": {
+            "x_axis": 850,
+            "y_axis": 200
+        },
+        "note4": "Epic",
+        "change4ColorFromPastedWidgetMenu": "div.panel2 > div > #color-b832d3 > div",
+        "draft4DropClik2": {
+            "x_axis": 850,
+            "y_axis": 300
+        },
+        "note5": "Feature",
+        "change5ColorFromPastedWidgetMenu": "div.panel2 > div > #color-29e3ff > div",
+        "draft5DropClik2": {
+            "x_axis": 850,
+            "y_axis": 400
+        }
+    },
+    "arrows": {
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-b832d3 > div",
+        "draftDropClickArea": {
+            "x_axis": 100,
+            "y_axis": 514
+        },
+        "draft2DropClickArea": {
+            "x_axis": 200,
+            "y_axis": 535
+        },
+        "draft3DropClickArea": {
+            "x_axis": 300,
+            "y_axis": 535
+        },
+        "draft4DropClickArea": {
+            "x_axis": 420,
+            "y_axis": 535
+        },
+        "draft5DropClickArea": {
+            "x_axis": 520,
+            "y_axis": 535
+        },
+        "draft6DropClickArea": {
+            "x_axis": 620,
+            "y_axis": 535
+        },
+        "draft7DropClickArea": {
+            "x_axis": 730,
+            "y_axis": 535
+        },
+        "draft8DropClickArea": {
+            "x_axis": 830,
+            "y_axis": 535
+        },
+        "draft9DropClickArea": {
+            "x_axis": 930,
+            "y_axis": 535
+        },
+        "draft10DropClickArea": {
+            "x_axis": 1050,
+            "y_axis": 535
+        }
+    },
+    "cardWidget": {
+        "note": "User Story",
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-feee70 > div",
+        "draftDropClickArea": {
+            "x_axis": 140,
+            "y_axis": 600
+        },
+        "note1": "User Story",
+        "draft1DropClik2": {
+            "x_axis": 370,
+            "y_axis": 550
+        },
+        "note2": "User Story",
+        "draft2DropClik2": {
+            "x_axis": 600,
+            "y_axis": 550
+        },
+        "note3": "User Story",
+        "draft3DropClik2": {
+            "x_axis": 820,
+            "y_axis": 550
+        }
+    },
+    "createsTriangleTextBox": {
+        "note": "TextBox Triangle",
+        "draftDropClickArea": {
+            "x_axis": 240,
+            "y_axis": 180
+        }
+    },
+    "createsRhombusTextBox": {
+        "note": "TextBox Rhombus",
+        "draftDropClickArea": {
+            "x_axis": 100,
+            "y_axis": 300
+        }
+    },
+    "createsCard": {
+        "note": "Card Widget",
+        "draftDropClickArea": {
+            "x_axis": 470,
+            "y_axis": 230
+        }
+    },
+    "addsPlainLine": {
+        "draftDropClickArea": {
+            "x_axis": 740,
+            "y_axis": 230
+        }
+    },
+    "addsSingleHeadedArrow": {
+        "draftDropClickArea": {
+            "x_axis": 740,
+            "y_axis": 260
+        }
+    },
+    "addsDoubleHeadedArrow": {
+        "draftDropClickArea": {
+            "x_axis": 740,
+            "y_axis": 290
+        }
+    },
+    "adds2x2Matrix": {
+        "draftDropClickArea": {
+            "x_axis": 270,
+            "y_axis": 620
+        }
+    },
+    "addsXyReferencedCentered": {
+        "draftDropClickArea": {
+            "x_axis": 780,
+            "y_axis": 610
+        }
+    },
+    "addsXyReference": {
+        "draftDropClickArea": {
+            "x_axis": 720,
+            "y_axis": 620
+        }
+    },
+    "addsRectangleFrame": {
+        "note": "Rectangular Frame",
+        "draftDropClickArea": {
+            "x_axis": 890,
+            "y_axis": 280
+        }
+    },
+    "addsEllipticalFrame": {
+        "note": "EllipticalFrame",
+        "draftDropClickArea": {
+            "x_axis": 1050,
+            "y_axis": 280
+        }    
+    },
+    "addsPolygoneHull": {
+        "note": "PolyGon Hull",
+        "draftDropClickArea": {
+            "x_axis": 900,
+            "y_axis": 500
+        } 
+    },
+    "addsRectangleHull": {
+        "note": "Rectangle Hull",
+        "draftDropClickArea": {
+            "x_axis": 1100,
+            "y_axis": 500
+        } 
+    },
+    "addsLocalMedia": {
+        "uploadImageHolder": "valid_image.png",
+        "clickMe": "div.vertice.vertice-postit3.vertice-media.font-futura.transparent.expanded.vertice-selected.selected-alone",
+        "draftDropClickArea": {
+            "x_axis": 1100,
+            "y_axis": 500
+        }
+    },
+    "addsWebLink": {
+        "note": "https://www.google.com",
+        "draftDropClickArea": {
+            "x_axis": 1100,
+            "y_axis": 500
+        }
+    },
+    "addsIframeLink": {
+        "note": "https://www.google.com",
+        "draftDropClickArea": {
+            "x_axis": 1100,
+            "y_axis": 500
+        }
+    },
+    "addsProgressBar": {
+        "unitValue": "Percentage",
+        "startValue": "20",
+        "currenttValue": "57",
+        "targetValue": "98",
+        "draftDropClickArea": {
+            "x_axis": 1100,
+            "y_axis": 500
+        }
+    },
+    "narrativeFlow": {
+        "note": "Narrattive Flow",
+        "draftDropClickArea": {
+            "x_axis": 10,
+            "y_axis": 370
+        }  
+    },
+    "releaseTag": {
+        "note": "Release n",
+        "draftDropClickArea": {
+            "x_axis": 10,
+            "y_axis": 500
+        }
+    }
+}

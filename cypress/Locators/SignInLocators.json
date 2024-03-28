@@ -1,0 +1,6 @@
+{
+    "emailField": "input[name='email']",
+    "passwordField":  "input[name='password']",
+    "loginBtn": "div.sign-in",
+    "logoutBtn": "a.log-out"
+}

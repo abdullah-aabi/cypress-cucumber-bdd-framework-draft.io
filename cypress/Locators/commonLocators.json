@@ -1,0 +1,7 @@
+{
+    "signInScreen": "div.sign-in",
+    "signUpScreen": "div.cta",
+    "profile": "div.option.profile",
+    "homeBtn": "div.home-toggle",
+    "closeTabBtn": ".tab-content .remove"
+}

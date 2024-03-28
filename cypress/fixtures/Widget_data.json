@@ -1,0 +1,281 @@
+{
+    "addsChunkNote": {
+        "note": "Chunk Notes",
+        "draftDropClickArea": {
+            "x_axis": 20,
+            "y_axis": 105
+        }
+    },
+    "addsHeading1": {
+        "note": "Heading 1",
+        "draftDropClickArea": {
+            "x_axis": 140,
+            "y_axis": 100       }
+    },
+    "addsHeading2": {
+        "note": "Heading 2",
+        "draftDropClickArea": {
+            "x_axis": 360,
+            "y_axis": 110
+        }
+    },
+    "addsHeading3": {
+        "note": "Heading 3",
+        "draftDropClickArea": {
+            "x_axis": 480,
+            "y_axis": 110
+        }
+    },
+    "createsRectangularStickyNotes": {
+        "note": "Rectangle Sticky",
+        "draftDropClickArea": {
+            "x_axis": 560,
+            "y_axis": 110
+        }
+    },
+    "createsSquareStickyNotes": {
+        "note": "Square Sticky",
+        "draftDropClickArea": {
+            "x_axis": 740,
+            "y_axis": 110
+        }
+    },
+    "createsRectangularTextBox": {
+        "note": "TextBox Rectangular",
+        "draftDropClickArea": {
+            "x_axis": 860,
+            "y_axis": 110
+        }
+    },
+    "createsEllipseTextBox": {
+        "note": "TextBox Ellipsis",
+        "draftDropClickArea": {
+            "x_axis": 20,
+            "y_axis": 180
+        }
+    },
+    "createsTriangleTextBox": {
+        "note": "TextBox Triangle",
+        "draftDropClickArea": {
+            "x_axis": 240,
+            "y_axis": 180
+        }
+    },
+    "createsRhombusTextBox": {
+        "note": "TextBox Rhombus",
+        "draftDropClickArea": {
+            "x_axis": 100,
+            "y_axis": 300
+        }
+    },
+    "createsCard": {
+        "note": "Card Widget",
+        "draftDropClickArea": {
+            "x_axis": 470,
+            "y_axis": 230
+        }
+    },
+    "addsPlainLine": {
+        "draftDropClickArea": {
+            "x_axis": 740,
+            "y_axis": 230
+        }
+    },
+    "addsSingleHeadedArrow": {
+        "draftDropClickArea": {
+            "x_axis": 740,
+            "y_axis": 260
+        }
+    },
+    "addsDoubleHeadedArrow": {
+        "draftDropClickArea": {
+            "x_axis": 740,
+            "y_axis": 290
+        }
+    },
+    "adds2x2Matrix": {
+        "draftDropClickArea": {
+            "x_axis": 270,
+            "y_axis": 620
+        }
+    },
+    "addsXyReferencedCentered": {
+        "draftDropClickArea": {
+            "x_axis": 780,
+            "y_axis": 610
+        }
+    },
+    "addsXyReference": {
+        "draftDropClickArea": {
+            "x_axis": 720,
+            "y_axis": 620
+        }
+    },
+    "addsRectangleFrame": {
+        "note": "Rectangular Frame",
+        "draftDropClickArea": {
+            "x_axis": 890,
+            "y_axis": 280
+        }
+    },
+    "addsEllipticalFrame": {
+        "note": "EllipticalFrame",
+        "draftDropClickArea": {
+            "x_axis": 1050,
+            "y_axis": 280
+        }    
+    },
+    "addsPolygoneHull": {
+        "note": "PolyGon Hull",
+        "draftDropClickArea": {
+            "x_axis": 900,
+            "y_axis": 500
+        } 
+    },
+    "addsRectangleHull": {
+        "note": "Rectangle Hull",
+        "draftDropClickArea": {
+            "x_axis": 1100,
+            "y_axis": 500
+        } 
+    },
+    "addsLocalMedia": {
+        "uploadImageHolder": "valid_image.png",
+        "clickMe": "div.vertice.vertice-postit3.vertice-media.font-futura.transparent.expanded.vertice-selected.selected-alone",
+        "draftDropClickArea": {
+            "x_axis": 1100,
+            "y_axis": 500
+        }
+    },
+    "addsWebLink": {
+        "note": "https://www.google.com",
+        "draftDropClickArea": {
+            "x_axis": 1100,
+            "y_axis": 500
+        }
+    },
+    "addsIframeLink": {
+        "note": "https://www.google.com",
+        "draftDropClickArea": {
+            "x_axis": 1100,
+            "y_axis": 500
+        }
+    },
+    "addsProgressBar": {
+        "unitValue": "Percentage",
+        "startValue": "20",
+        "currenttValue": "57",
+        "targetValue": "98",
+        "draftDropClickArea": {
+            "x_axis": 1100,
+            "y_axis": 500
+        }
+    },
+    "addsMatrix": {
+        "note": "Table Structure",
+        "draft2DropClickArea": {
+            "x_axis": 20,
+            "y_axis": 10
+        },
+        "draftDropClickArea": {
+            "x_axis": 270,
+            "y_axis": 300
+        },
+        "draft1DropClickArea": {
+            "x_axis": 470,
+            "y_axis": 300
+        },
+        "draft3DropClickArea": {
+            "x_axis": 270,
+            "y_axis": 400
+        },
+        "draft4DropClickArea": {
+            "x_axis": 470,
+            "y_axis": 400
+        }
+    },
+    "addsHeading": {
+        "draftDropClickArea": {
+            "x_axis": 100,
+            "y_axis": 130
+        },
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-fee734 > div",
+        "note": "Backlog",
+        "draft1DropClickArea": {
+            "x_axis": 300,
+            "y_axis": 230
+        },
+        "note1": "In Progress",
+        "change1ColorFromPastedWidgetMenu": "div.panel2 > div > #color-29e3ff > div",
+        "draft3DropClickArea": {
+            "x_axis": 550,
+            "y_axis": 230
+        },
+        "note2": "Done",
+        "change2ColorFromPastedWidgetMenu": "div.panel2 > div > #color-73c675 > div"
+    },
+    "addsWidget": {
+        "draftDropClickArea": {
+            "x_axis": 100,
+            "y_axis": 330
+        },
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-fee734 > div",
+        "note": "task 1",
+        "draft1DropClickArea": {
+            "x_axis": 100,
+            "y_axis": 430
+        },
+        "note1": "task 2",
+        "change1ColorFromPastedWidgetMenu": "div.panel2 > div > #color-29e3ff > div",
+        "draft3DropClickArea": {
+            "x_axis": 100,
+            "y_axis": 530
+        },
+        "note2": "task 3",
+        "change2ColorFromPastedWidgetMenu": "div.panel2 > div > #color-73c675 > div"
+    },
+    "addsWidget2": {
+        "draftDropClickArea": {
+            "x_axis": 300,
+            "y_axis": 330
+        },
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-29e3ff > div",
+        "note": "task 1a",
+        "draft1DropClickArea": {
+            "x_axis": 300,
+            "y_axis": 430
+        },
+        "note1": "task 2a",
+        "draft3DropClickArea": {
+            "x_axis": 300,
+            "y_axis": 530
+        },
+        "note2": "task 3a"
+    },
+    "addsWidget3": {
+        "draftDropClickArea": {
+            "x_axis": 500,
+            "y_axis": 330
+        },
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-73c675 > div",
+        "note": "task 1b",
+        "draft1DropClickArea": {
+            "x_axis": 500,
+            "y_axis": 430
+        },
+        "note1": "task 2b",
+        "draft3DropClickArea": {
+            "x_axis": 500,
+            "y_axis": 530
+        },
+        "note2": "task 3b"
+    },
+    "addNote": {
+        "note": "Adding URL",
+        "draftDropClickArea": {
+            "x_axis": 500,
+            "y_axis": 300
+        },
+        "urlNote": "https://recette.draft.io/vh3fjjfkv8z52qh839r7ybjjhjfh7fm9y9asj5ttn5z9"
+    }
+}

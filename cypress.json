@@ -1,0 +1,38 @@
+{
+  "baseUrl": "https://recette.draft.io",
+  "defaultCommandTimeout": 20000,
+  "requestTimeout": 21000,
+  "pageLoadTimeout": 120000,
+  "video": false,
+  "videoUploadOnPasses": false,
+  "chromeWebSecurity": false,
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "results",
+    "overwrite": false,
+    "html": true,
+    "json": false,
+    "charts": true
+  },
+  "viewportHeight": 1080,
+  "viewportWidth": 1920,
+  "retries": {
+    "runMode": 2,
+    "openMode": 0
+  },
+  "testFiles": [
+    "**/*.feature",
+    "**/*.js"],
+  "ignoreTestFiles": [
+    "*.ts",
+    "*.md"
+  ],
+  "env": {
+    "Username": "johndoe@yopmail.com",
+    "Password": "Draft@123",
+    "MAILOSAUR_API_KEY": "4J7aJbkFbjonrMdO",
+    "MAILOSAUR_Server_ID": "1ne6kyhd",
+    "MAILOSAUR_Server_Domain": "1ne6kyhd.mailosaur.net"
+  },
+  "projectId": "6pqcfj"
+}

@@ -1,0 +1,37 @@
+{
+    "loginBtn": "div.sign-in",
+    "signUpLink": "div.bloc-new-user a",
+
+    "createsAccount": {
+        "UNIQUE_Email": "input[name='email']",
+        "passwordField": "input[name='password']",
+        "confirmPasswordFeild": "input[name='password_confirmation']",
+        "submitBtn": "div.cta",
+        "@createAccount": 200
+    },
+    "invalidFields": {
+        "submitBtn": "div.cta",    
+        "emailErrorMsg": "div.error",
+        "emailField": "input[name='email']",
+        "submit2Btn": "div.cta",    
+        "passwordError1Msg": "div.error",
+        "passwordField": "input[name='password']",
+        "submit3Btn": "div.cta",    
+        "passwordError2Msg": "div.error",
+        "password2Field": "input[name='password']",
+        "submit4Btn": "div.cta",    
+        "passwordError3Msg": "div.error",
+        "confirmPasswordFeild": "input[name='password_confirmation']",
+        "submit5Btn": "div.cta",    
+        "passwordError4Msg": "div.error"
+    },
+    "alreadyExistingAccount": {
+        "emailField": "input[name='email']",
+        "passwordField": "input[name='password']",
+        "confirmPasswordFeild": "input[name='password_confirmation']",
+        "submitBtn": "div.cta",
+        "@createAccount": 200
+    },
+    
+    "submitBtn": "div.cta"
+}

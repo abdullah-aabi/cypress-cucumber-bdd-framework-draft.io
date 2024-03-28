@@ -1,0 +1,45 @@
+{
+    "addsCardFeatures": {
+        "note": "Card Ticket",
+        "changeColorFromPastedWidgetMenu": "div.panel2 > div > #color-feee70 > div"
+    },
+    "addsCardDescFeatures": {
+        "desc": "This is Card Widget Description"
+    },
+    "addsCardStatusFeatures": {},
+    "addsCardTagsFeatures": {
+        "tag1": "#tag1",
+        "tag2": "#tag2"
+    },
+    "addsCardPastillesFeatures": {},
+    "addsCardAssignee": {
+        "assignee": "xyz@gmail.com"
+    },
+    "addsCardPriority": {},
+    "addsCardComplexity": {},
+    "addsCardChecklist": {
+        "listitem": "check item 1",
+        "list2item": "check item 2",
+        "deleteFromPastedWidgetMenu": "div.row.delete"
+    },
+    "currentCardStatus": {},
+    "changeCardStatus": {
+        "typStatusReplace": {
+            "a": "[\n\t{\n\t\"",
+            "b": "label\": \"status1\",",
+            "c": "\n\"color\": \"#f5b070\"\n\t},\n",
+            "d": "{\n\t\"label\": \"status2\",",
+            "e": "\n\"color\": \"#25ba0e\"",
+            "f": "\n\t}\n]"
+        }
+    },
+    "currentCardComplexity": {
+        
+    },
+    "changeCardComplexity": {
+        "series": "a1, a2, a3, a4, a5, a6, a7, a8"
+    },
+    "showCardComplexity": {
+        
+    }
+}
